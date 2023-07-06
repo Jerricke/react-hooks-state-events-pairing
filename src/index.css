@@ -10,3 +10,62 @@ body {
 .App {
   text-align: center;
 }
+
+h1 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+button {
+  font-size: 1.3em;
+  padding: 0 1em 0 1em;
+  border-radius: 1em;
+  margin: 0.5em;
+}
+
+button:hover {
+  background-color: lightcyan;
+}
+
+.comments {
+  background-color: lightslategray;
+  border-top: 2px black solid;
+  font-size: 1.1em;
+}
+ 
+.comment {
+  background-color: lightgrey;
+  border: 2px darkgrey solid;
+}
+
+.comment button {
+  font-size: 1em;
+}
+
+.commentSearchBar {
+
+  background-color: lightslategray;
+}
+
+.searchField {
+  padding: 0.5em 2em;
+  margin: 0.5em;
+  background-color: lightgreen;
+}
+
+.commentField {
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  overflow: auto;
+}
+
+#commentSubmit {
+  font-size: 1em;
+}
+
+.sortBtn {
+  font-size: 1em;
+}
